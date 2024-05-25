@@ -23,5 +23,5 @@ console.log(newDate.getMonth()+1);
 console.log(newDate.getDate());
 
 console.log(newDate.toLocaleString('default', {
-    weekday : "narrow",
+    weekday : "short"
 }));
